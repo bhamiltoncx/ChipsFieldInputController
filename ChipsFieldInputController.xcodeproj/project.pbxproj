@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92CC8C0320FD4D500000DD25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC8C0220FD4D500000DD25 /* AppDelegate.m */; };
+		292EFFB77E6DCBD12F9EBC12 /* libPods-ChipsFieldInputController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E5B2D35B58AD6E4ACFB193 /* libPods-ChipsFieldInputController.a */; };
+		929F505520FD511C007AEFB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F505420FD511C007AEFB5 /* AppDelegate.m */; };
 		92CC8C0620FD4D500000DD25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC8C0520FD4D500000DD25 /* ViewController.m */; };
 		92CC8C0920FD4D500000DD25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CC8C0720FD4D500000DD25 /* Main.storyboard */; };
 		92CC8C0B20FD4D510000DD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CC8C0A20FD4D510000DD25 /* Assets.xcassets */; };
@@ -16,16 +17,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CD101737C945F9C71380982 /* Pods-ChipsFieldInputController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipsFieldInputController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChipsFieldInputController/Pods-ChipsFieldInputController.debug.xcconfig"; sourceTree = "<group>"; };
+		929F505420FD511C007AEFB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		92CC8BFE20FD4D500000DD25 /* ChipsFieldInputController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipsFieldInputController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92CC8C0120FD4D500000DD25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		92CC8C0220FD4D500000DD25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92CC8C0420FD4D500000DD25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		92CC8C0520FD4D500000DD25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92CC8C0820FD4D500000DD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92CC8C0A20FD4D510000DD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92CC8C0D20FD4D510000DD25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92CC8C0F20FD4D510000DD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CC8C1020FD4D510000DD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC6A87569C9B5499075D941F /* Pods-ChipsFieldInputController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipsFieldInputController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChipsFieldInputController/Pods-ChipsFieldInputController.release.xcconfig"; sourceTree = "<group>"; };
+		E9E5B2D35B58AD6E4ACFB193 /* libPods-ChipsFieldInputController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChipsFieldInputController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292EFFB77E6DCBD12F9EBC12 /* libPods-ChipsFieldInputController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49297EBC1056AA7AAD3A6FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E5B2D35B58AD6E4ACFB193 /* libPods-ChipsFieldInputController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		763235D16D08B4621F889CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CD101737C945F9C71380982 /* Pods-ChipsFieldInputController.debug.xcconfig */,
+				AC6A87569C9B5499075D941F /* Pods-ChipsFieldInputController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		92CC8BF520FD4D500000DD25 = {
 			isa = PBXGroup;
 			children = (
 				92CC8C0020FD4D500000DD25 /* ChipsFieldInputController */,
 				92CC8BFF20FD4D500000DD25 /* Products */,
+				763235D16D08B4621F889CBC /* Pods */,
+				49297EBC1056AA7AAD3A6FA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +80,13 @@
 		92CC8C0020FD4D500000DD25 /* ChipsFieldInputController */ = {
 			isa = PBXGroup;
 			children = (
-				92CC8C0120FD4D500000DD25 /* AppDelegate.h */,
-				92CC8C0220FD4D500000DD25 /* AppDelegate.m */,
-				92CC8C0420FD4D500000DD25 /* ViewController.h */,
 				92CC8C0520FD4D500000DD25 /* ViewController.m */,
 				92CC8C0720FD4D500000DD25 /* Main.storyboard */,
 				92CC8C0A20FD4D510000DD25 /* Assets.xcassets */,
 				92CC8C0C20FD4D510000DD25 /* LaunchScreen.storyboard */,
 				92CC8C0F20FD4D510000DD25 /* Info.plist */,
 				92CC8C1020FD4D510000DD25 /* main.m */,
+				929F505420FD511C007AEFB5 /* AppDelegate.m */,
 			);
 			path = ChipsFieldInputController;
 			sourceTree = "<group>";
@@ -78,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92CC8C1420FD4D510000DD25 /* Build configuration list for PBXNativeTarget "ChipsFieldInputController" */;
 			buildPhases = (
+				2210C2168CCAC3D3E9860C88 /* [CP] Check Pods Manifest.lock */,
 				92CC8BFA20FD4D500000DD25 /* Sources */,
 				92CC8BFB20FD4D500000DD25 /* Frameworks */,
 				92CC8BFC20FD4D500000DD25 /* Resources */,
+				1328396F335F2C6F2F29625F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +158,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1328396F335F2C6F2F29625F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChipsFieldInputController/Pods-ChipsFieldInputController-resources.sh",
+				"${PODS_ROOT}/MaterialComponents/components/ActivityIndicator/src/MaterialActivityIndicator.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/AppBar/src/MaterialAppBar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/BottomNavigation/src/MaterialBottomNavigation.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/CollectionCells/src/MaterialCollectionCells.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Collections/src/MaterialCollections.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Dialogs/src/MaterialDialogs.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/FeatureHighlight/src/MaterialFeatureHighlight.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/PageControl/src/MaterialPageControl.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Tabs/src/MaterialTabs.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_arrow_back.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check_circle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_chevron_right.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_color_lens.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_help_outline.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_info.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_more_horiz.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_reorder.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_settings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialActivityIndicator.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialAppBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialBottomNavigation.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollectionCells.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialFeatureHighlight.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialPageControl.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialTabs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_arrow_back.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check_circle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_chevron_right.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_color_lens.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_help_outline.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_info.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_more_horiz.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_reorder.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_settings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChipsFieldInputController/Pods-ChipsFieldInputController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2210C2168CCAC3D3E9860C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChipsFieldInputController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92CC8BFA20FD4D500000DD25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +242,7 @@
 			files = (
 				92CC8C0620FD4D500000DD25 /* ViewController.m in Sources */,
 				92CC8C1120FD4D510000DD25 /* main.m in Sources */,
-				92CC8C0320FD4D500000DD25 /* AppDelegate.m in Sources */,
+				929F505520FD511C007AEFB5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +380,7 @@
 		};
 		92CC8C1520FD4D510000DD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD101737C945F9C71380982 /* Pods-ChipsFieldInputController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +397,7 @@
 		};
 		92CC8C1620FD4D510000DD25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6A87569C9B5499075D941F /* Pods-ChipsFieldInputController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
